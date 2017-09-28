@@ -13,11 +13,15 @@ public class Test {
 		library.addBook( new Book ("Game of thrones", "G.R.R.Martin", 2000));			
 		library.addBook( new Book ("Diune", "F.Herbert", 1965));	
 		//List all books
-		System.out.println("Book list");
+		System.out.println("*****  Book list *****");
 		library.listBooks();
 		
 		//Search book using search phrase
-		/*System.out.println(library.searchBook("Martin")); */
+		
+		System.out.println(library.searchBook("It","S.king")); 
+		System.out.println(library.searchBook("S.king")); 
+		System.out.println(library.searchBook("Diune")); 
+		System.out.println(library.searchBook(2000)); 
 		
 		//Borrow a book
 		Scanner sc =new Scanner(System.in);
@@ -33,5 +37,7 @@ public class Test {
 		library.removeBook(sc.next());
 		System.out.println("Book list");
 		library.listBooks();
+    
     }
+    
 }
