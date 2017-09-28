@@ -16,8 +16,9 @@ public class Test {
 		System.out.println("*****  Book list *****");
 		library.listBooks();
 		
-		//Search book using search phrase
-		
+		//Search options:
+		//Title and Author,Title or Author, Title, Author,Year 	
+
 		System.out.println(library.searchBook("It","S.king")); 
 		System.out.println(library.searchBook("S.king")); 
 		System.out.println(library.searchBook("Diune")); 

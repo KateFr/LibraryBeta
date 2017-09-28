@@ -54,26 +54,7 @@ public class Library {
 		}
 		return "\n No Books Avaliable ";
 		}
-	
-	public String searchBook (String searchString, int year) {
-		
-		for (Book book: books) {
-			if (year == book.getYear()) {
-				return "\n Search results: " + book.getBook();}								
-		}
-		return "\n No Books Avaliable ";
-		}
-	
-	
-	/*public String searchBook (String search) {
-		
-		for (Book book: books) {			
-			if( book.toString().toLowerCase().contains(search.toLowerCase())) {
-				 return book.getBook();}									
-		}
-		return "\n No Books Avaliable ";
-	} */
-		
+			
 	public String showBook(String id) {	
   		Book libBook; 	
 		for (int i=0;i<books.size();i++){
