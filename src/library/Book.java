@@ -6,7 +6,7 @@ public class Book {
 	private final String title;
 	private final String author;
 	private final int year;
-	boolean borrowed;
+	private boolean borrowed;
 	private String borrower;
 	private String id;
 	
